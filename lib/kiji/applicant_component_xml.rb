@@ -14,7 +14,7 @@ module Kiji
     def at_xpath(node)
       @xml_doc.at_xpath(node)
     end
-    
+
     def generate_xml_document
       @xml_doc
     end
